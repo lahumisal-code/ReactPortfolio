@@ -1,14 +1,15 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiFillInstagram,
   AiFillStar,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { Col, Container, Row } from "react-bootstrap";
+
 import { CgGitFork } from "react-icons/cg";
+import { FaLinkedinIn } from "react-icons/fa";
+import React from "react";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/avatar.svg";
 
 function Home2() {
   return (
@@ -25,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Javascript and Spring. </b>
+                <b className="purple"> Java, Javascript, MySQL, Hibernate, AWS and Spring Framework. </b>
               </i>
               <br />
               <br />
@@ -108,7 +109,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.hackerrank.com/profile/lahumisal402" // Replace with your HackerRank profile URL
+                  href="https://www.hackerrank.com/profile/lahumisal402" 
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
