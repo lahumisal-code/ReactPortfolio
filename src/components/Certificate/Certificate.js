@@ -12,6 +12,7 @@ import Servlet_JSP from "../../Assets/Projects/Servlet_JSP.jpg";
 import SoftwareDevelopment from "../../Assets/Projects/Software_Development.jpg";
 import SpringBoot from "../../Assets/Projects/SpringBoot.jpg";
 import SpringFramework from "../../Assets/Projects/Spring_Framework.jpg";
+import full_stack_certificate from "../../Assets/Projects/Full_Stack_Cerificate.jpg";
 
 function Certificate() {
   return (
@@ -26,63 +27,70 @@ function Certificate() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-        <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
+            <CertificateCard
+              imgPath={full_stack_certificate}
+              title="Java Full Stack Certification"
+            />
+          </Col>
+
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={SoftwareDevelopment}
               title="Software Development"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={OOps}
               title="OOPS in Java"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={Java}
               title="Java Programming"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={MySQL}
               title="MySQL Database"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={Servlet_JSP}
               title="Servlet and JSP"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={SpringFramework}
               title="Spring Framework"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={Hibernate}
               title="Hibernate"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={SpringBoot}
               title="Spring Boot"
             />
           </Col>
 
-          <Col md={4} className="certification-card">
+          <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={GitHub}
               title="Basic GitHub"
