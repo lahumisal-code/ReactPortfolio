@@ -12,7 +12,7 @@ import Servlet_JSP from "../../Assets/Projects/Servlet_JSP.jpg";
 import SoftwareDevelopment from "../../Assets/Projects/Software_Development.jpg";
 import SpringBoot from "../../Assets/Projects/SpringBoot.jpg";
 import SpringFramework from "../../Assets/Projects/Spring_Framework.jpg";
-import full_stack_certificate from "../../Assets/Projects/Full_Stack_Cerificate.jpg";
+// import full_stack_certificate from "../../Assets/Projects/Full_Stack_Cerificate.jpg";
 
 function Certificate() {
   return (
@@ -27,12 +27,12 @@ function Certificate() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          <Col md={6} className="certification-card">
+          {/* <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={full_stack_certificate}
               title="Java Full Stack Certification"
             />
-          </Col>
+          </Col> */}
 
           <Col md={6} className="certification-card">
             <CertificateCard
