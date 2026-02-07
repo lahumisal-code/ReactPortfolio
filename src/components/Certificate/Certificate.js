@@ -27,13 +27,13 @@ function Certificate() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-          <Col md={6} className="certification-card">
+         /* <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={full_stack_certificate}
               title="Java Full Stack Certification"
             />
           </Col>
-
+*/
           <Col md={6} className="certification-card">
             <CertificateCard
               imgPath={SoftwareDevelopment}
