@@ -38,7 +38,8 @@ if (maintenanceMode) {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
-        fontFamily: "Arial"
+        fontFamily: "Arial",
+         color: "white"
       }}>
         <h1>🚧 Website Under Maintenance</h1>
         <p>We will be back soon.</p>
