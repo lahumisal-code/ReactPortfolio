@@ -22,7 +22,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-
+  const maintenanceMode = true;
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
@@ -30,7 +30,21 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
-
+if (maintenanceMode) {
+    return (
+      <div style={{
+        height: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+        fontFamily: "Arial"
+      }}>
+        <h1>🚧 Website Under Maintenance</h1>
+        <p>We will be back soon.</p>
+      </div>
+    );
+  }
   return (
     <Router>
       <Preloader load={load} />
