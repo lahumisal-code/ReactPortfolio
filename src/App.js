@@ -22,7 +22,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [load, upadateLoad] = useState(true);
-  const maintenanceMode = true;
+  const maintenanceMode = false;
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
