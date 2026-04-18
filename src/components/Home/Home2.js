@@ -89,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/lahu_misal_1011/"
+                  href="https://www.instagram.com/profile/lahu_misal_1011/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
